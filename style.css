@@ -1,0 +1,108 @@
+*{
+    font-family:url(CalculatorLcdsRegular-R5ZM.ttf) 
+    ;
+}
+.tous{
+    position: absolute;                    
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border: 3px black solid;
+    border-radius: 14px;
+    height: 520px;
+    width: 400px;
+    background-color: #f2f2f2;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 20px 25px 40px 25px ;
+    margin: 13px;
+    transition: 00.7s ease;
+    border-radius: 10px;
+}
+.ecran{
+    border: 2px #46617e solid;
+    padding: 25px 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #fff;
+    width: 35px;
+    height: 1em;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px ;
+}
+p{
+    padding-left: 150px;
+    font-size: 35px;
+}
+.num{
+    border: 1px #46617e solid;
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+    margin: 30px 12px;
+    text-align: center;
+    align-items: center;
+    color: #063061;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #fff;
+}
+.nbr{
+    display: flex;
+    align-items: center;
+    
+    font-size: 30px;
+    display: flex;
+    flex-direction: row  ;
+    justify-content: center;    
+    align-items: center;
+    cursor: pointer;
+}
+.nbr1{
+    display: flex;
+    justify-content: flex-start;    
+    align-items: flex-start;
+
+}
+.plus{
+    height: 3.5cm;
+    background-color: #46fb75;
+    color: #06405b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+.nbr2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 33px;
+}
+.num1{
+    width: 2.7cm;
+    margin-left: -2px;
+}
+.nbr3{
+    margin-top: -100px;
+}
+.ce{
+    background-color: #498efa;
+    color: #06305f;
+    margin-left: 35px
+}
+.c{
+    background-color: #f94b48;
+    color: #0a2e61;
+}
+.egal{
+    background-color: #f9e949;
+    color: #12375e;
+    margin-left: 45px; 
+}
+.ce:hover{
+    opacity: 0.7;
+}
+.mois{
+    background-color: #fff;
+}
