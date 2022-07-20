@@ -2,7 +2,14 @@
     font-family:url(CalculatorLcdsRegular-R5ZM.ttf) 
     ;
 }
+
+@font-face {
+    font-family: akrem;
+    src: url(font/CalculatorLcdsRegular-R5ZM.ttf);
+}
+
 .tous{
+    font-family: akrem;
     position: absolute;                    
     left: 50%;
     top:50%;
@@ -20,19 +27,20 @@
 }
 .ecran{
     border: 2px #46617e solid;
-    padding: 25px 150px;
+    /* padding: 25px 150px; */
+    
     margin-top: 30px;
     margin-left: 30px;
     background-color: #fff;
-    width: 35px;
-    height: 1em;
+    width: 330px;
+    height: 70px;
     font-size: 20px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     box-shadow: 1px 1px 1px 1px ;
 }
 p{
-    padding-left: 150px;
     font-size: 35px;
 }
 .num{
@@ -106,3 +114,4 @@ p{
 .mois{
     background-color: #fff;
 }
+
